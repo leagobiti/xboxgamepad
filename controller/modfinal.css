@@ -1,4 +1,4 @@
-/*BEGIN Xbox One Controller Styling*/
+/* BEGIN Xbox One Controller Styling */
 
 .controller.xbox {
     background: url("https://leagobiti.github.io/xboxgamepad/controller/basemodv2.png") no-repeat center;
@@ -92,13 +92,15 @@
     opacity: 1;
 }
 
-/* ABXY */
+/* =========================
+   ABXY FIX DEFINITIVO
+========================= */
+
 .xbox .button {
     position: absolute;
     width: 48px;
     height: 48px;
-    background: url("https://leagobiti.github.io/xboxgamepad/controller/abxymod.png") !important;
-    background-repeat: no-repeat !important;
+    background: url("https://leagobiti.github.io/xboxgamepad/controller/abxymod.png") no-repeat;
 }
 
 /* A */
@@ -121,15 +123,16 @@
     background-position: -144px 0 !important;
 }
 
-/* quando aperta */
+/* quando pressionado */
 .xbox .button.pressed {
     background-position-y: -48px !important;
+    opacity: 1 !important;
 }
 
 /* STICKS */
 .xbox .stick {
     position: absolute;
-    background: url("https://leagobiti.github.io/xboxgamepad/controller/stickmodv2.png");
+    background: url("https://leagobiti.github.io/xboxgamepad/controller/stickmod.png");
     background-position: -85px 0;
     height: 83px;
     width: 83px;
