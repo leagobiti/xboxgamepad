@@ -211,4 +211,8 @@
     opacity: 1 !important;
 }
 
+.controller.xbox {
+    outline: 5px solid red !important;
+}
+
 /* END */
