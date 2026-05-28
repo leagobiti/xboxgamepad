@@ -1,5 +1,5 @@
 /* =========================
-   BASE CONTROLLER
+   BASE
 ========================= */
 
 .controller.xbox {
@@ -11,8 +11,6 @@
 ========================= */
 
 .controller.xbox .trigger {
-    width: 88px;
-    height: 121px;
     background: url("https://leagobiti.github.io/xboxgamepad/controller/triggermod.png") no-repeat center !important;
     opacity: 0;
 }
@@ -26,8 +24,6 @@
 ========================= */
 
 .controller.xbox .bumper {
-    width: 170px;
-    height: 61px;
     background: url("https://leagobiti.github.io/xboxgamepad/controller/bumpermod.png") no-repeat center !important;
     opacity: 0;
 }
@@ -41,9 +37,7 @@
 ========================= */
 
 .controller.xbox .stick {
-    width: 83px;
-    height: 83px;
-    background: url("https://leagobiti.github.io/xboxgamepad/controller/stickmodv2.png") no-repeat center !important;
+    background: url("https://leagobiti.github.io/xboxgamepad/controller/stickmod.png") no-repeat center !important;
 }
 
 /* =========================
@@ -52,15 +46,10 @@
 
 .controller.xbox .face {
     background: url("https://leagobiti.github.io/xboxgamepad/controller/dpadmod.png") no-repeat center !important;
-    opacity: 0;
-}
-
-.controller.xbox .face.pressed {
-    opacity: 1 !important;
 }
 
 /* =========================
-   ABXY (CORRIGIDO DEFINITIVO)
+   ABXY (ÚNICO SISTEMA LIMPO)
 ========================= */
 
 .controller.xbox .button {
@@ -69,43 +58,13 @@
     background: url("https://leagobiti.github.io/xboxgamepad/controller/abxymod.png") no-repeat !important;
 }
 
-/* posições dos botões */
+/* posições */
 .controller.xbox .a { background-position: 0 0 !important; }
 .controller.xbox .b { background-position: -48px 0 !important; }
 .controller.xbox .x { background-position: -96px 0 !important; }
 .controller.xbox .y { background-position: -144px 0 !important; }
 
-/* botão pressionado */
 .controller.xbox .button.pressed {
     background-position-y: -48px !important;
     opacity: 1 !important;
-}
-
-/* =========================
-   BACK / START / QUADRANT
-========================= */
-
-.controller.xbox .back,
-.controller.xbox .start {
-    background: url("https://leagobiti.github.io/xboxgamepad/controller/xbox-assets/start-select.svg") no-repeat center !important;
-    width: 33px;
-    height: 33px;
-    opacity: 0;
-}
-
-.controller.xbox .back.pressed,
-.controller.xbox .start.pressed {
-    opacity: 1 !important;
-}
-
-/* =========================
-   DISCONNECTED
-========================= */
-
-.controller.xbox.disconnected {
-    background: url("https://leagobiti.github.io/xboxgamepad/controller/xbox-assets/disconnected.svg") !important;
-}
-
-.controller.xbox.disconnected div {
-    display: none;
 }
