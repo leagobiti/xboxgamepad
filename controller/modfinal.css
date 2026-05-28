@@ -158,4 +158,57 @@
     margin-top: -315px;
 }
 
+/* =========================
+   FORCE SKIN OVERWRITE
+========================= */
+
+.controller.xbox {
+    background: url("https://leagobiti.github.io/xboxgamepad/controller/basemodv2.png") no-repeat center !important;
+    background-size: contain !important;
+}
+
+/* TRIGGERS */
+.controller.xbox .trigger {
+    background: url("https://leagobiti.github.io/xboxgamepad/controller/triggermod.png") !important;
+    opacity: 0;
+}
+.controller.xbox .trigger.pressed {
+    opacity: 1 !important;
+}
+
+/* BUMPERS */
+.controller.xbox .bumper {
+    background: url("https://leagobiti.github.io/xboxgamepad/controller/bumpermod.png") !important;
+    opacity: 0;
+}
+.controller.xbox .bumper.pressed {
+    opacity: 1 !important;
+}
+
+/* STICKS */
+.controller.xbox .stick {
+    background: url("https://leagobiti.github.io/xboxgamepad/controller/stickmod.png") !important;
+}
+
+/* DPAD */
+.controller.xbox .face {
+    background: url("https://leagobiti.github.io/xboxgamepad/controller/dpadmod.png") !important;
+}
+
+/* ABXY (FORÇA TOTAL) */
+.controller.xbox .button {
+    background: url("https://leagobiti.github.io/xboxgamepad/controller/abxymod.png") no-repeat !important;
+}
+
+/* posições ABXY */
+.controller.xbox .a { background-position: 0 0 !important; }
+.controller.xbox .b { background-position: -48px 0 !important; }
+.controller.xbox .x { background-position: -96px 0 !important; }
+.controller.xbox .y { background-position: -144px 0 !important; }
+
+.controller.xbox .button.pressed {
+    background-position-y: -48px !important;
+    opacity: 1 !important;
+}
+
 /* END */
