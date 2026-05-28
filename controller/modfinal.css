@@ -95,21 +95,41 @@
 /* ABXY */
 .xbox .button {
     position: absolute;
-    background: url("https://leagobiti.github.io/xboxgamepad/controller/abxymod.png");
     width: 48px;
     height: 48px;
+    background: url("https://leagobiti.github.io/xboxgamepad/controller/abxymod.png") !important;
+    background-repeat: no-repeat !important;
 }
 
+/* A */
+.xbox .a {
+    background-position: 0 0 !important;
+}
+
+/* B */
+.xbox .b {
+    background-position: -48px 0 !important;
+}
+
+/* X */
+.xbox .x {
+    background-position: -96px 0 !important;
+}
+
+/* Y */
+.xbox .y {
+    background-position: -144px 0 !important;
+}
+
+/* quando aperta */
 .xbox .button.pressed {
-    background-position-y: -48px;
-    margin-top: 5px;
-    opacity: 1;
+    background-position-y: -48px !important;
 }
 
 /* STICKS */
 .xbox .stick {
     position: absolute;
-    background: url("https://leagobiti.github.io/xboxgamepad/controller/stickmod.png");
+    background: url("https://leagobiti.github.io/xboxgamepad/controller/stickmodv2.png");
     background-position: -85px 0;
     height: 83px;
     width: 83px;
